@@ -1,0 +1,40 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+}
+
+#footer_name {
+    /* position: fixed; */
+    float: right;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 30px;
+}
+
+.container {
+    /* max-width: 1440px; */
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1 {
+    font-size: 65px;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 65px;
+    font-weight: 300;
+}
+
+p {
+    letter-spacing: 5px;
+}
+
+@media (min-width: 1440px) {
+    .container {
+        width: 1440px;
+    }
+}
