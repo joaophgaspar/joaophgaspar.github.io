@@ -3,10 +3,15 @@ body {
 }
 
 .jg_icon {
-    width: 450px;
-    padding: 0;
     margin-top: 50px;
     margin-bottom: 10px;
+}
+
+#jg_title,
+#jg_title:hover,
+#jg_title:focus {
+    color: white;
+    font-size: 50px;
 }
 
 h3 {

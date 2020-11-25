@@ -3,12 +3,19 @@ body {
     color: white;
 }
 
-#footer_name {
+.jg_name {
+    font-family: 'Inconsolata', monospace;
+}
+
+.footer_align,
+.footer_align:hover,
+.footer_align:focus {
     /* position: fixed; */
     float: right;
     margin-top: 50px;
     margin-bottom: 50px;
     height: 30px;
+    color: #070707;
 }
 
 .container {
@@ -35,7 +42,10 @@ h2 {
     }
 }
 
-a {
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
     cursor: nw-resize;
 }
 

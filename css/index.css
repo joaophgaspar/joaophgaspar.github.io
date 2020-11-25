@@ -35,14 +35,14 @@ body {
 .blue_type,
 .blue_type:hover,
 .blue_type:focus {
-    text-decoration: none;
+    /* text-decoration: none; */
     color: #0018f8;
 }
 
 .white_type,
 .white_type:hover,
 .white_type:focus {
-    text-decoration: none;
+    /* text-decoration: none; */
     color: #ffffff;
 }
 
@@ -67,17 +67,15 @@ body {
     color: white;
 }
 
-.textinfo,
-.textinfo:hover,
-.textinfo:focus {
-    text-decoration: none;
-    /* color: white */
-}
-
 .mouseFollow {
     position: fixed;
     pointer-events: none;
     transform-origin: center;
     z-index: 1;
     display: none;
+}
+
+#jg_footer {
+    letter-spacing: 0px;
+    font-size: 25px;
 }
