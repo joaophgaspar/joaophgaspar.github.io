@@ -32,18 +32,8 @@ body {
     margin-bottom: 150px;
 }
 
-.blue_type,
-.blue_type:hover,
-.blue_type:focus {
-    text-decoration: none;
+.blue_type {
     color: #0018f8;
-}
-
-.white_type,
-.white_type:hover,
-.white_type:focus {
-    text-decoration: none;
-    color: #ffffff;
 }
 
 #random_text {
@@ -55,13 +45,8 @@ body {
     opacity: 0;
 }
 
+::selection,
 ::-moz-selection {
-    text-shadow: none;
-    background: #0018f8;
-    color: white;
-}
-
- ::selection {
     text-shadow: none;
     background: #0018f8;
     color: white;
@@ -70,8 +55,9 @@ body {
 .textinfo,
 .textinfo:hover,
 .textinfo:focus {
+    cursor: nw-resize;
     text-decoration: none;
-    /* color: white */
+    color: white
 }
 
 .mouseFollow {

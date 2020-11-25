@@ -29,16 +29,12 @@ h2 {
     font-weight: 300;
 }
 
+p {
+    letter-spacing: 5px;
+}
+
 @media (min-width: 1440px) {
     .container {
         width: 1440px;
     }
-}
-
-a {
-    cursor: nw-resize;
-}
-
-p {
-    letter-spacing: 5px;
 }
