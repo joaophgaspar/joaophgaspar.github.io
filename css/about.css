@@ -1,0 +1,62 @@
+body {
+    background-color: #0018f8;
+}
+
+.jg_icon {
+    width: 450px;
+    padding: 0;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 45px;
+    font-weight: 500;
+}
+
+h4 {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+h6 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+.margin_div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.black_type,
+.black_type:hover,
+.black_type:focus {
+    text-decoration: none;
+    color: #070707;
+}
+
+.smile_icon {
+    width: 175px;
+    padding: 0;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+::-moz-selection {
+    text-shadow: none;
+    background: #070707;
+    color: white;
+}
+
+ ::selection {
+    text-shadow: none;
+    background: #070707;
+    color: white;
+}
