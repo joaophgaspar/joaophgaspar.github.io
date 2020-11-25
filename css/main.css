@@ -43,8 +43,8 @@ h2 {
 }
 
 @media (min-width: 375px) {
-    h2 {
-        font-size: 15px;
+    .container {
+        width: 375px;
     }
 }
 
