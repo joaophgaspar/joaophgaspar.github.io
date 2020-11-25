@@ -32,7 +32,7 @@ h1 {
 }
 
 h2 {
-    font-size: 55px;
+    font-size: 65px;
     font-weight: 300;
 }
 
@@ -41,6 +41,13 @@ h2 {
         width: 1440px;
     }
 }
+
+
+/* @media (min-width: 375px) {
+    h2 {
+        font-size: 45;
+    }
+} */
 
 a,
 a:hover,
