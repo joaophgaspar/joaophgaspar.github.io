@@ -42,12 +42,6 @@ h2 {
     }
 }
 
-@media (min-width: 375px) {
-    .container {
-        width: 375px;
-    }
-}
-
 a,
 a:hover,
 a:focus {
