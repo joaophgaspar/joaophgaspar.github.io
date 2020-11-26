@@ -57,4 +57,4 @@ function scrolltitle() {
 }
 scrolltitle();
 
-document.cookie = "open_me=https://youtu.be/izGwDsrQ1eQ"
+document.cookie = "open_me=https://youtu.be/GaoLU6zKaws"
