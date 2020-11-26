@@ -7,19 +7,7 @@ body {
     font-family: 'Inconsolata', monospace;
 }
 
-.footer_align,
-.footer_align:hover,
-.footer_align:focus {
-    /* position: fixed; */
-    float: right;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    height: 30px;
-    color: #070707;
-}
-
 .container {
-    /* max-width: 1440px; */
     padding-right: 5%;
     padding-left: 5%;
     margin-right: auto;
@@ -40,6 +28,16 @@ h2 {
     .container {
         width: 1440px;
     }
+}
+
+.footer_align,
+.footer_align:hover,
+.footer_align:focus {
+    float: right;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 30px;
+    color: #070707;
 }
 
 a,
