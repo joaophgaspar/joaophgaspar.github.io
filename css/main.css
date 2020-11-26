@@ -50,3 +50,7 @@ a:focus {
 p {
     letter-spacing: 5px;
 }
+
+.life {
+    background: url("../images/cv.jpg");
+}
