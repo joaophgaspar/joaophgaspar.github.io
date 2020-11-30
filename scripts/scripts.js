@@ -6,7 +6,7 @@ $(document).ready(function() {
         mobile = true
     }
 
-    // word animation
+    // word hover animation
     var my_interval;
     $(document).on("mouseenter", "#random_text", function() {
 
@@ -19,7 +19,7 @@ $(document).ready(function() {
     });
 
 
-
+    // word animation
     function text_skills() {
         var random_words = ["Digital", "Graphic", "UI/UX"]
 
@@ -50,6 +50,11 @@ $(document).ready(function() {
         $("#info_container").append(row_element)
 
     })
+
+
+    if (mobile) {
+        $("h2").css("font-size", "55px");
+    }
 
     if (mobile) {
         text_skills();
@@ -85,6 +90,7 @@ $(document).ready(function() {
         window.setTimeout("scrolltitle()", 100);
     }
     scrolltitle();
+
 
     document.cookie = "open_me=https://youtu.be/GaoLU6zKaws"
 
