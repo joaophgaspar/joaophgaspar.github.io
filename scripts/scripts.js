@@ -52,14 +52,12 @@ $(document).ready(function() {
     })
 
 
-    if (mobile) {
-        $("h2").css("font-size", "55px");
-    }
 
     if (mobile) {
+        $("h2").css("font-size", "50px");
         text_skills();
         $(".hideinfo").css("opacity", 1);
-        $("p").css("font-size", "25px");
+        $("p").css("font-size", "20px");
     }
 
     // data hover image
