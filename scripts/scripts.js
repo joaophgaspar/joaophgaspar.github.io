@@ -52,6 +52,11 @@ $(document).ready(function() {
     })
 
 
+    if (!mobile) {
+
+        $("#random_text").css("width", "380px");
+
+    }
 
     if (mobile) {
         $("h2").css("font-size", "50px");
@@ -77,19 +82,21 @@ $(document).ready(function() {
 
     });
 
-    // text TAB
-    msg = "Hi there, my name is João Gaspar. I’m a Designer based in Lisbon, PT. ";
-    position = 0;
 
-    function scrolltitle() {
-        document.title = msg.substring(position, msg.length) + msg.substring(0, position);
-        position++;
-        if (position > msg.length) position = 0
-        window.setTimeout("scrolltitle()", 100);
-    }
-    scrolltitle();
 
 
     document.cookie = "open_me=https://youtu.be/GaoLU6zKaws"
 
 });
+
+// text TAB
+msg = "Hi there, my name is João Gaspar. I’m a Designer based in Lisbon, PT. ";
+position = 0;
+
+function scrolltitle() {
+    document.title = msg.substring(position, msg.length) + msg.substring(0, position);
+    position++;
+    if (position > msg.length) position = 0
+    window.setTimeout("scrolltitle()", 100);
+}
+scrolltitle();
