@@ -10,7 +10,8 @@
  / _` |/ _ \ \ / / _ \ |/ _ \| '_ \ / _ \ '__|
 | (_| |  __/\ V /  __/ | (_) | |_) |  __/ |   
  \__,_|\___| \_/ \___|_|\___/| .__/ \___|_|   
-                             |_|              
+                             |_|               
 
+but I understand
 ```
 [joaophgaspar.github.io](https://joaophgaspar.github.io/)
