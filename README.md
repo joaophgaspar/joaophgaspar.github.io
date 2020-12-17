@@ -12,6 +12,5 @@
  \__,_|\___| \_/ \___|_|\___/| .__/ \___|_|   
                              |_|               
 
-but I understand ☺
 ```
 [joaophgaspar.github.io](https://joaophgaspar.github.io/)
