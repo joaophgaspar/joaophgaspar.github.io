@@ -1,4 +1,10 @@
 const projects = [{
+        name: "CMVM 30",
+        link: "",
+        info: "SOON",
+        image: "wtf.gif"
+    },
+    {
         name: "Positive Vibes",
         link: "https://www.behance.net/gallery/101081949/Sumol-Positive-Vibes",
         info: "ZWELA 2020",
