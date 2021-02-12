@@ -19,7 +19,7 @@ const projects = [{
     {
         name: "Oxigen",
         link: "https://www.behance.net/gallery/95413425/Oxigen-Grafica-Digital",
-        info: "2020",
+        info: "ZWELA 2020",
         image: "oxigen.png"
     },
     {
