@@ -41,9 +41,15 @@ $(document).ready(function() {
     // data content
     $(projects).each(function(i, item) {
 
+        if (item.link == "") {
+            link = 'href="javascript:;" target=""'
+        } else {
+            link = 'href="' + item.link + '" target="_blank"'
+        }
+
         var row_element = '<div class="row">' +
             '<div class="col-sm-12">' +
-            '<h2><a href="' + item.link + '" target="_blank" class="textinfo white_type">' + item.name + '</a></h2>' +
+            '<h2><a ' + link + ' class="textinfo white_type">' + item.name + '</a></h2>' +
             '<p class="hideinfo blue_type">' + item.info + '</p>' +
             '<div class="mouseFollow"> <img src = "images/' + item.image + '" >' +
             '</div></div></div>';
